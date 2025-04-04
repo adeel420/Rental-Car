@@ -19,3 +19,4 @@ app.use("/user", userRoutes);
 app.listen(PORT, () => {
   console.log(`Listening the port ${PORT}`);
 });
+module.exports = app;
